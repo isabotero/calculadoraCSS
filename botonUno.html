@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>NPS</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div>
+            <p> Total de encuestados 😀: </p>
+            <input type="number" id="datoEncuestados">
+
+        </div>
+
+        <div>
+            <p> Cantidad de promotores🎉: </p>  
+            <input type="number" id="datoPromotores">
+
+        </div>
+
+        <div>
+            <p> Cantidad de detractores 😔: </p>
+            <input type="number" id="datoDetractores">
+            <button id="botonEnviar" onclick="envioBoton()">Enviar</button>
+        </div>
+
+        <p>El calculo del NPS es igual a:</p>
+        <p id="valorFinal"></p>
+        <p id="indicadorF"></p>
+
+
+        <button id="botonRevisar" onclick="indicadores()"> Revisar parámetros </button>
+
+        <div id="contenedorPrincipal">
+            <div id="contenedorDos">
+                <img src="./indicadores.JPG" alt="img">
+                <div id="botonAtras">
+                    Atrás
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>

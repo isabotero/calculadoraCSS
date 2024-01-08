@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+   background-color: beige;
+   font-family: 'Arimo', sans-serif;
+   
+}
+
+#encabezado {
+
+    display: grid;
+    justify-content: center;
+}
+
+#botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    margin: 45px;
+    border-radius: 8px;
+    background-color: bisque;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: rgb(231, 176, 94);
+}

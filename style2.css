@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+    background-color: beige;
+    font-family: 'Arimo', sans-serif;
+    
+ }
+ 
+ #contenedor{
+     display: grid;
+     justify-content: center;
+     margin-top: 100px;
+     position: relative;
+ }
+ 
+
+
+input {
+    border-radius: 4px;
+}
+
+#botonEnviar {
+    width: 140px;
+    height: 30px;
+    background-color: rgb(221, 175, 114);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#primerParrafo {
+    position: relative;
+   
+}
+
+h4 {
+    position: absolute;
+    top: -64px;
+    text-align: center;
+}
+
+#contenedorDos {
+    position: absolute;
+    top: 120px;
+    right: 460px;
+}
